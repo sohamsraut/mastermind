@@ -13,7 +13,7 @@ while (ans.lower()  == 'y'):
     r = 1
     found = e = p = 0
     while True:
-        rep = 0
+        rep = 0 #checks for repeating numbers
         fix = random.randint(1000,9999)
         sfix = str(fix)
         for i in sfix:
